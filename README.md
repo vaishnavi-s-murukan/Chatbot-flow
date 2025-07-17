@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 💬 Chatbot Flow Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔗 Live Demo: https://chatbot-flow-zeta.vercel.app/
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧠 Overview
 
-### `npm start`
+Let's get those message nodes flowing! This is a React Flow-powered chatbot builder with a WhatsApp-style message UI, editable nodes, and built-in save validation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Built with extensibility, clean design, and a responsive layout in mind.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ React Flow – for a seamless flow-building UX  
+- 🎨 Tailwind CSS – for fast, modern styling  
+- 🔔 React Toastify – to display success/error messages  
+- 💬 React Icons – for WhatsApp and message icons  
+- 🚀 Vercel – for simple deployment  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎯 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 💬 Message Nodes  
+   - WhatsApp-styled green cards  
+   - Comes with a message icon and editable label  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🧰 Node Panel  
+   - Add prebuilt message nodes with one click  
 
-### `npm run eject`
+- 🔗 Connect Nodes  
+   - Visual linking via source & target handles  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ☝️ Source Handles  
+   - One outgoing edge allowed per node  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🎯 Target Handles  
+   - Can accept multiple incoming edges  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- ⚙️ Settings Panel  
+   - Click a node to edit its message content  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- 💾 Save Button  
+   - ✅ Validates flow  
+   - ❌ Shows red error toast if multiple nodes have empty target handles  
+   - ✅ Shows green success toast if valid  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+- Node.js installed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/vaishnavi-s-murukan/Chatbot-flow.git
+cd chatbot-flow-builder
+npm install
+npm run dev
+---
+🖼️ Screenshots
+Playground: public/readme-img/img1.png
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Error Toast: public/readme-img/img2.png
 
-### Making a Progressive Web App
+Success Toast: public/readme-img/img3.png
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🤖 Happy Coding!
+Built with ❤️ using React and React Flow.
