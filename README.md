@@ -63,13 +63,16 @@ git clone https://github.com/vaishnavi-s-murukan/Chatbot-flow.git
 cd chatbot-flow-builder
 npm install
 npm run dev
+```
 ---
-🖼️ Screenshots
-Playground: public/readme-img/img1.png
+### 🖼️ Screenshots
 
-Error Toast: public/readme-img/img2.png
-
-Success Toast: public/readme-img/img3.png
+- Success Toast: https://github.com/vaishnavi-s-murukan/Chatbot-flow/blob/d94a26e24b6f76ea7b4644b2d195d19020455456/public/img%201.png
+  
+- Error Toast: https://github.com/vaishnavi-s-murukan/Chatbot-flow/blob/d94a26e24b6f76ea7b4644b2d195d19020455456/public/img%202.png
+  
 
 🤖 Happy Coding!
-Built with ❤️ using React and React Flow.
+
+  Built with ❤️ using React and React Flow.
+
