@@ -1,4 +1,4 @@
-# 💬 Frontend Chatbot Flow Builder
+# 💬 Chatbot Flow Builder
 
 🔗 Live Demo: https://chatbot-flow-zeta.vercel.app/
 
@@ -59,8 +59,17 @@ Built with extensibility, clean design, and a responsive layout in mind.
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/chatbot-flow-builder.git
+git clone https://github.com/vaishnavi-s-murukan/Chatbot-flow.git
 cd chatbot-flow-builder
 npm install
 npm run dev
 
+🖼️ Screenshots
+Playground: public/readme-img/img1.png
+
+Error Toast: public/readme-img/img2.png
+
+Success Toast: public/readme-img/img3.png
+
+🤖 Happy Coding!
+Built with ❤️ using React and React Flow.
