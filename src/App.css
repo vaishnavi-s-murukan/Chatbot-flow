@@ -1,0 +1,56 @@
+.flow-container {
+  display: flex;
+  height: 100vh;
+}
+
+.side-panel {
+  width: 250px;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+  background: #fafafa;
+}
+
+.flow-canvas {
+  flex: 1;
+  background-color: #fff;
+}
+
+.node-item {
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: grab;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.text-node {
+  border: 2px solid #90ee90;
+  background-color: #e6fff5;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 200px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-node .node-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  background: #d4f5d4;
+  padding: 5px;
+  border-radius: 6px 6px 0 0;
+}
+
+.text-node .node-body {
+  padding: 10px 5px 5px;
+  font-size: 14px;
+}
+
+.settings-panel textarea {
+  width: 100%;
+  margin: 8px 0;
+}
