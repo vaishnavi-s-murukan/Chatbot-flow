@@ -63,7 +63,7 @@ git clone https://github.com/vaishnavi-s-murukan/Chatbot-flow.git
 cd chatbot-flow-builder
 npm install
 npm run dev
-
+---
 🖼️ Screenshots
 Playground: public/readme-img/img1.png
 
